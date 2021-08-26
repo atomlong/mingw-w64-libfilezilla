@@ -11,8 +11,7 @@ pkgbase = mingw-w64-libfilezilla
 	options = !strip
 	options = !buildflags
 	options = !makeflags
-	source = http://download.filezilla-project.org/libfilezilla/libfilezilla-0.12.2.tar.bz2
+	source = https://download.filezilla-project.org/libfilezilla/libfilezilla-0.12.2.tar.bz2
 	md5sums = 79c95ee58bc8db2fa3690a36ece25a6d
 
 pkgname = mingw-w64-libfilezilla
-

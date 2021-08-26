@@ -15,7 +15,7 @@ depends=('mingw-w64-crt')
 makedepends=('mingw-w64-configure')
 options=(staticlibs !strip !buildflags !makeflags)
 install=
-source=("http://download.filezilla-project.org/libfilezilla/libfilezilla-$pkgver.tar.bz2")
+source=("https://download.filezilla-project.org/libfilezilla/libfilezilla-$pkgver.tar.bz2")
 md5sums=('79c95ee58bc8db2fa3690a36ece25a6d')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
