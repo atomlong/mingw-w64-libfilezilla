@@ -7,6 +7,7 @@ pkgbase = mingw-w64-libfilezilla
 	license = GPL
 	makedepends = mingw-w64-configure
 	makedepends = mingw-w64-gmp
+	makedepends = mingw-w64-nettle
 	depends = mingw-w64-crt
 	options = staticlibs
 	options = !strip
