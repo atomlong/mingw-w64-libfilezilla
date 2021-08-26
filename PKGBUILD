@@ -5,7 +5,7 @@
 
 _name=libfilezilla
 pkgname=mingw-w64-libfilezilla
-pkgver=0.12.2
+pkgver=0.31.1
 pkgrel=1
 pkgdesc='Small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs (mingw-w64)'
 arch=('any')
@@ -16,7 +16,7 @@ makedepends=('mingw-w64-configure')
 options=(staticlibs !strip !buildflags !makeflags)
 install=
 source=("https://download.filezilla-project.org/libfilezilla/libfilezilla-$pkgver.tar.bz2")
-md5sums=('79c95ee58bc8db2fa3690a36ece25a6d')
+md5sums=('a6e3157655e285410e6d12c7c76f0f26')
 
 _architectures="i686-w64-mingw32 x86_64-w64-mingw32"
 
